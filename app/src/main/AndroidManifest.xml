@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="damz.quizioner"
+    android:versionCode="8"
+    android:versionName="1.0.0.7"
+    tools:ignore="GradleOverrides">
+    <uses-sdk
+        android:minSdkVersion="27"
+        android:targetSdkVersion="27"
+        tools:ignore="GradleOverrides" />
+
+    <uses-permission android:name="android.permission.INTERNET" ></uses-permission>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" ></uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+
+        <activity
+            android:name="damz.quizioner.Act_splash"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="damz.quizioner.Act_login"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name="damz.quizioner.Act_regist"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_act_regist"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="damz.quizioner.Act_menu_utama"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_act_menu_utama"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="damz.quizioner.Act_pengaturan"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_act_pengaturan"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="damz.quizioner.Act_tentang"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_act_tentang"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="damz.quizioner.Act_kuesioner"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_act_kuesioner"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="damz.quizioner.Act_produk"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_act_produk"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="damz.quizioner.Act_daftar_paket"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_act_daftar_paket"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="damz.quizioner.Act_tampil_list_paket"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_act_tampil_list_produk"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="damz.quizioner.Act_info_tarif"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_act_info_tarif"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="damz.quizioner.Act_kuiz"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="Form Kuiz"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="damz.quizioner.Act_tampil_list_tarif"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_act_tampil_list_tarif"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="damz.quizioner.Act_telkomsel"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_act_telkomsel"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="damz.quizioner.Act_daftar_paket_as"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_act_daftar_paket_as"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="damz.quizioner.Act_daftar_paket_halo"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_act_daftar_paket_halo"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme" />
+        <activity
+            android:name="damz.quizioner.Act_daftar_paket_simpati"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_act_daftar_paket_simpati"
+            android:screenOrientation="portrait"
+            android:theme="@style/FullscreenTheme"/>
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version"           />
+    </application>
+
+</manifest>

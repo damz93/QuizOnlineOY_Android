@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_width="fill_parent">
+
+    <item android:id="@+id/HALO"
+        android:title="HALO"/>
+    <item android:id="@+id/kartu_as"
+        android:title="kartu As"/>
+    <item android:id="@+id/LOOP"
+        android:title="LOOP"/>
+    <item android:id="@+id/simpati"
+        android:title="simPATI"/>
+</menu>

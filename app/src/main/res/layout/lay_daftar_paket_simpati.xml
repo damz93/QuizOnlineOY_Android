@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_colorfull"
+    android:orientation="vertical" >
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:alpha="0.7"
+        android:background="@drawable/wr1"
+        android:layout_marginTop="300dp"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="10dp"
+        android:text=" #List Paket simPATI "/>
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="8"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:columnCount="1" >
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:alpha="0.8"
+                android:orientation="vertical">
+                <Button
+                    android:id="@+id/btn_pket_perdansimp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:text="Paket Perdana simPATI"
+                    android:background="@drawable/btn_merah2"
+                    android:textColor="#ffffff"
+                    android:gravity="center_vertical|start"
+                    android:drawableLeft="@drawable/simpati"/>
+                <Button
+                    android:id="@+id/btn_pket_combsimp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:text="Paket simPATI Combo"
+                    android:background="@drawable/btn_merah2"
+                    android:textColor="#ffffff"
+                    android:gravity="center_vertical|start"
+                    android:drawableLeft="@drawable/simpati"/>
+                <Button
+                    android:id="@+id/btn_pket_infopketsimp"
+                    android:layout_width="fill_parent"
+                    android:layout_height="80dp"
+                    android:textSize="18sp"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="bold"
+                    android:text="Info Paket"
+                    android:background="@drawable/btn_merah2"
+                    android:textColor="#ffffff"
+                    android:gravity="center_vertical|start"
+                    android:drawableLeft="@drawable/simpati"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+    <Button
+        android:alpha="0.7"
+        android:id="@+id/btn_ok_dftr_produksimp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_biru"
+        android:text="Back"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:textSize="20sp" />
+</LinearLayout>

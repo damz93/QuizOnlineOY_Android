@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">QUIZioner</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="tentang">Aplikasi QUIZioner 1.0, buat kamu-kamu yang merasa Anak muda(Youth). Ikutin terus Aplikasi ini, dan dapatkan hadiah-hadiah menarik dari Telkomsel.</string>
+    <string name="title_activity_act_regist">Form Register</string>
+
+    <string name="title_activity_act_menu_utama">Menu Utama</string>
+
+    <string name="id_aplikasiyaaa">ca-app-pub-5256228815542923~6349451081</string>
+
+    <string name="id_iklanyaaa">ca-app-pub-5256228815542923/2613757189</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_activity_act_pengaturan">Act_pengaturan</string>
+
+    <string name="title_activity_act_tentang">Tentang Aplikasi</string>
+
+    <string name="title_activity_act_kuesioner">Form QUIZioner</string>
+
+    <string name="title_activity_act_produk">Form Produk</string>
+
+    <string name="title_activity_act_daftar_paket">Form Daftar Paket</string>
+
+    <string name="title_activity_act_tampil_list_produk">Tampil List Produk</string>
+
+    <string name="title_activity_act_info_tarif">Form Info Tarif</string>
+
+    <string name="title_activity_act_tampil_list_paket">Form Tampil List Paket</string>
+
+    <string name="title_activity_act_tampil_list_tarif">Form Tampil List Tarif</string>
+
+    <string name="title_activity_act_telkomsel">Produk Telkomsel</string>
+
+    <string name="title_activity_act_daftar_paket_as">Daftar Paket AS</string>
+
+    <string name="title_activity_act_daftar_paket_halo">Daftar Pake Halo</string>
+
+    <string name="title_activity_act_daftar_paket_simpati">Daftar Paket simPATI</string>
+</resources>

@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/bg_blank_colorfull"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/tx_tampillistproduk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:alpha="0.7"
+        android:background="@drawable/wr1"
+        android:layout_marginTop="20dp"
+        android:textStyle="bold|italic"
+        android:layout_marginBottom="10dp"
+        android:text=" #List Paket LOOP "/>
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="8"
+        android:scrollbars="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_gravity="top"
+            android:orientation="vertical"
+            android:columnCount="1" >
+            <WebView
+                android:id="@+id/wb_tampilistproduk"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </WebView>
+
+            <com.google.android.gms.ads.AdView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="bottom"
+                android:visibility="visible"
+                android:id="@+id/adview1"
+                ads:adSize = "BANNER"
+                ads:adUnitId = "ca-app-pub-5256228815542923/2613757189" />
+
+        </LinearLayout>
+    </ScrollView>
+
+    <Button
+        android:id="@+id/btn_oktampil_list_produk"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/btn_biru"
+        android:text="Back"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:alpha="0.7"
+        android:textSize="20sp" />
+</LinearLayout>

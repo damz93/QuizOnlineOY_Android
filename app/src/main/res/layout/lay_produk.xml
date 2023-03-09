@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:alpha="0.7"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="#011f52"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="75dp"
+            android:layout_height="45dp"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="10dp"
+            android:background="@drawable/logo_fix2" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Produk ke-"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="bold|italic" />
+
+        <TextView
+            android:id="@+id/txt_ke_produk"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:text="1"
+            android:textColor="#FFFFFF"
+            android:textSize="18sp"
+            android:textStyle="italic|bold" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/linear_layout_container"
+        android:orientation="vertical"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="18dp"
+        android:background="@drawable/btn_biru"
+        android:columnCount="1" >
+
+        <TextView
+            android:id="@+id/tx_nproduk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#01000e"
+            android:layout_marginLeft="5sp"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:text="Nama Produk"/>
+        <TextView
+            android:id="@+id/tx_ketproduk"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#040221"
+            android:layout_marginLeft="25sp"
+            android:textSize="16sp"
+            android:text="Keterangan Produk"/>
+        <TextView
+            android:id="@+id/tx_cara"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#040221"
+            android:layout_marginLeft="20sp"
+            android:textSize="16sp"
+            android:text="Caranya"/>
+
+    </LinearLayout>
+</LinearLayout>

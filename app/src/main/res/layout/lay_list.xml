@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_blank_colorfull"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#0a585b">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="aa"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="8dp"
+            android:id="@+id/tx_kategori"
+            android:textColor="#FFFFFF"
+            android:textSize="30dp"/>
+
+    </LinearLayout>
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_view_questions"
+        android:layout_width="fill_parent"
+        android:layout_weight="6"
+        android:layout_height="0dp"/>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_gravity="bottom"
+        android:orientation="vertical"
+        android:alpha="0.7"
+        android:layout_height="wrap_content" >
+        
+        <Button
+            android:id="@+id/btn_kirim"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_biru"
+            android:text="Save"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>

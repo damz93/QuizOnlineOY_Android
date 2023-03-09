@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_colorfull"
+    android:orientation="vertical" >
+    <TextView
+        android:id="@+id/tx_user_pengaturan"
+        android:text=" #User Aktif "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="20dp"
+        android:alpha="0.7"
+        android:background="@drawable/wr1"
+        android:layout_marginTop="300dp"
+        android:textStyle="bold|italic"/>
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0sp"
+        android:layout_weight="5"
+        android:scrollbars="vertical" >
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="top"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:layout_marginBottom="10dp"
+            android:columnCount="1" >
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:alpha="0.6"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+                    <EditText
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:id="@+id/edit_pssekarang"
+                        android:layout_width="fill_parent"
+                        android:background="@drawable/wr5"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:inputType="textPassword"
+                        android:hint="Current Password"
+                        android:maxLength="20"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:alpha="0.6"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+                    <EditText
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/wr5"
+                        android:id="@+id/edit_psbaru"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:inputType="textPassword"
+                        android:hint="New Password"
+                        android:maxLength="20"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"/>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:alpha="0.6"
+                    android:layout_marginTop="5dp"
+                    android:orientation="vertical">
+                    <EditText
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:background="@drawable/wr5"
+                        android:id="@+id/edit_psulang"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:textSize="20sp"
+                        android:inputType="textPassword"
+                        android:hint="Confirm New Password"
+                        android:maxLength="20"
+                        android:textColor="#000000"
+                        android:textColorHint="#000000"/>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+    <TextView
+
+        android:id="@+id/txt_alert2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#EEEEDD"
+        android:visibility="gone"
+        android:text="" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="15dp"
+        android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_perbarui"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_biru"
+            android:text="Confirm"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:alpha="0.7"
+            android:textSize="20sp" />
+        <Button
+            android:id="@+id/btn_kembali"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/btn_biru"
+            android:text="Back to Main"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:alpha="0.7"
+            android:visibility="gone"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+</LinearLayout>
